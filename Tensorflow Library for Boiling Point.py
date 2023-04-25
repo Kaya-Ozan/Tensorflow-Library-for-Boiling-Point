@@ -31,7 +31,7 @@ model.fit(X_train_scaled, y_train, epochs=500, batch_size=4,verbose=0)
 
 y_pred = model.predict(X_test_scaled)
 
-output_file("ozan.html")
+output_file("Tensorflow Library for Boiling Point.html")
 p = figure(title="Gerçek Kaynama Noktası ve Tahminleri",
            x_axis_label="Gerçek Kaynama Noktası (K)",
            y_axis_label="Tahmin Edilen Kaynama Noktası (K)",
